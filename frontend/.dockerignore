@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y secretos
+.env
+*.local
+
+# Compilaciones y logs
+dist/
+build/
+*.log
+
+# Archivos temporales del sistema y uploads locales
+.DS_Store
+Thumbs.db
+uploads/*
+!uploads/.gitkeep

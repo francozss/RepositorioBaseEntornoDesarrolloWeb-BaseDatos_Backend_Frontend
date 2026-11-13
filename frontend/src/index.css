@@ -1,0 +1,22 @@
+:root {
+  --font-family-base: 'Inter', system-ui, sans-serif;
+  --background-primary: #F8FAFC;
+  --surface-card: #FFFFFF;
+  --text-primary: #0F172A;
+  --border-color: #E2E8F0;
+  --button-primary-bg: #2563EB;
+  --button-primary-text: #FFFFFF;
+  --color-success: #16A34A;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+}
